@@ -13,6 +13,14 @@
 		6C3FEE9C2C28D03B0016298C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6C3FEE9B2C28D03B0016298C /* Base */; };
 		6C3FEE9E2C28D03C0016298C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C3FEE9D2C28D03C0016298C /* Assets.xcassets */; };
 		6C3FEEA12C28D03C0016298C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6C3FEEA02C28D03C0016298C /* Base */; };
+		6C3FEEA92C28D30D0016298C /* PasswordChechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3FEEA82C28D30D0016298C /* PasswordChechViewController.swift */; };
+		6C3FEEAB2C28D31F0016298C /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3FEEAA2C28D31F0016298C /* WelcomeViewController.swift */; };
+		6C3FEEAD2C28D3430016298C /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3FEEAC2C28D3430016298C /* InfoViewController.swift */; };
+		6C3FEEAF2C28D3C70016298C /* ShortInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3FEEAE2C28D3C70016298C /* ShortInfoViewController.swift */; };
+		6C3FEEB12C28D3FB0016298C /* MyHobbiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3FEEB02C28D3FB0016298C /* MyHobbiesViewController.swift */; };
+		6C3FEEB32C28D4410016298C /* PicturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3FEEB22C28D4410016298C /* PicturesViewController.swift */; };
+		6C3FEEB52C28D4ED0016298C /* MiniCooperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3FEEB42C28D4ED0016298C /* MiniCooperViewController.swift */; };
+		6C3FEEB72C28D4FA0016298C /* NatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3FEEB62C28D4FA0016298C /* NatureViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		6C3FEE9D2C28D03C0016298C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C3FEEA02C28D03C0016298C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C3FEEA22C28D03C0016298C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C3FEEA82C28D30D0016298C /* PasswordChechViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordChechViewController.swift; sourceTree = "<group>"; };
+		6C3FEEAA2C28D31F0016298C /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		6C3FEEAC2C28D3430016298C /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		6C3FEEAE2C28D3C70016298C /* ShortInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortInfoViewController.swift; sourceTree = "<group>"; };
+		6C3FEEB02C28D3FB0016298C /* MyHobbiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHobbiesViewController.swift; sourceTree = "<group>"; };
+		6C3FEEB22C28D4410016298C /* PicturesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturesViewController.swift; sourceTree = "<group>"; };
+		6C3FEEB42C28D4ED0016298C /* MiniCooperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniCooperViewController.swift; sourceTree = "<group>"; };
+		6C3FEEB62C28D4FA0016298C /* NatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatureViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +76,14 @@
 				6C3FEE962C28D03B0016298C /* SceneDelegate.swift */,
 				6C3FEE982C28D03B0016298C /* ViewController.swift */,
 				6C3FEE9A2C28D03B0016298C /* Main.storyboard */,
+				6C3FEEB42C28D4ED0016298C /* MiniCooperViewController.swift */,
+				6C3FEEB62C28D4FA0016298C /* NatureViewController.swift */,
+				6C3FEEB22C28D4410016298C /* PicturesViewController.swift */,
+				6C3FEEB02C28D3FB0016298C /* MyHobbiesViewController.swift */,
+				6C3FEEAE2C28D3C70016298C /* ShortInfoViewController.swift */,
+				6C3FEEA82C28D30D0016298C /* PasswordChechViewController.swift */,
+				6C3FEEAA2C28D31F0016298C /* WelcomeViewController.swift */,
+				6C3FEEAC2C28D3430016298C /* InfoViewController.swift */,
 				6C3FEE9D2C28D03C0016298C /* Assets.xcassets */,
 				6C3FEE9F2C28D03C0016298C /* LaunchScreen.storyboard */,
 				6C3FEEA22C28D03C0016298C /* Info.plist */,
@@ -139,8 +163,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C3FEE992C28D03B0016298C /* ViewController.swift in Sources */,
+				6C3FEEAB2C28D31F0016298C /* WelcomeViewController.swift in Sources */,
+				6C3FEEB72C28D4FA0016298C /* NatureViewController.swift in Sources */,
+				6C3FEEB32C28D4410016298C /* PicturesViewController.swift in Sources */,
 				6C3FEE952C28D03B0016298C /* AppDelegate.swift in Sources */,
+				6C3FEEAF2C28D3C70016298C /* ShortInfoViewController.swift in Sources */,
+				6C3FEEB52C28D4ED0016298C /* MiniCooperViewController.swift in Sources */,
 				6C3FEE972C28D03B0016298C /* SceneDelegate.swift in Sources */,
+				6C3FEEB12C28D3FB0016298C /* MyHobbiesViewController.swift in Sources */,
+				6C3FEEAD2C28D3430016298C /* InfoViewController.swift in Sources */,
+				6C3FEEA92C28D30D0016298C /* PasswordChechViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,8 +330,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,9 +339,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Swiftbook.AboutMeApp-V5";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -326,8 +362,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +371,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Swiftbook.AboutMeApp-V5";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
